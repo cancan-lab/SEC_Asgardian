@@ -10,25 +10,25 @@ Aplikasi memungkinkan pengguna mengunggah audio lalu mendapatkan prediksi apakah
 - Upload audio (browser) → kirim ke API
 - Prediksi model (server Python)
 - Respons JSON berisi probabilitas & label
-- Siap dipisah menjadi **frontend/**, **backend/** (atau `server/`), dan **model/**
+- Siap dipisah menjadi frontend/, backend/ (atau `server/`), dan model/
 
-> Catatan: Jika di repo kamu folder backend masih bernama `server/`, anggap instruksi **backend/** di bawah mengacu ke folder server/.
+> Catatan: Jika di repo kamu folder backend masih bernama `server/`, anggap instruksi backend/ di bawah mengacu ke folder server/.
 
 ---
 
 ---
 
 ## ✅ Prasyarat
-- **Node.js 18+** dan **npm**
-- **Python 3.10+** (disarankan pakai virtual environment)
-- Git (opsional untuk kontribusi)
+- Node.js 18+ dan npm
+- Python 3.10+ (disarankan pakai virtual environment)
+
 
 ---
 
 ## 🧩 Konfigurasi Lingkungan
 
 ### Frontend
-Buat file **`frontend/.env.local`**:
+Buat file frontend/.env.local`:
 ```
 
 VITE\_API\_BASE\_URL=[http://localhost:8000](http://localhost:8000)
@@ -36,7 +36,7 @@ VITE\_API\_BASE\_URL=[http://localhost:8000](http://localhost:8000)
 ```
 
 ### Backend
-Jika perlu, buat **`backend/.env`** (opsional):
+Jika perlu, buat *backend/.env`(opsional):
 ```
 
 CORS\_ORIGINS=[http://localhost:5173](http://localhost:5173)
