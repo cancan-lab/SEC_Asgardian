@@ -1,8 +1,8 @@
 ```md
 # SEC_Asgardian
 
-Demo **Audio Deepfake Detection**: Frontend (React + Vite + TypeScript), Backend (FastAPI), dan skrip Model (Python).  
-Aplikasi memungkinkan pengguna mengunggah audio lalu mendapatkan prediksi apakah audio tersebut **real** atau **fake**.
+Demo Audio Deepfake Detection: Frontend (React + Vite + TypeScript), Backend (FastAPI), dan skrip Model (Python).  
+Aplikasi memungkinkan pengguna mengunggah audio lalu mendapatkan prediksi apakah audio tersebut real atau fake.
 
 ---
 
@@ -12,7 +12,7 @@ Aplikasi memungkinkan pengguna mengunggah audio lalu mendapatkan prediksi apakah
 - Respons JSON berisi probabilitas & label
 - Siap dipisah menjadi **frontend/**, **backend/** (atau `server/`), dan **model/**
 
-> Catatan: Jika di repo kamu folder backend masih bernama `server/`, anggap instruksi **backend/** di bawah mengacu ke folder **server/**.
+> Catatan: Jika di repo kamu folder backend masih bernama `server/`, anggap instruksi **backend/** di bawah mengacu ke folder server/.
 
 ---
 
@@ -182,4 +182,4 @@ backend/.env*
 ## 📜 Lisensi
 
 Tentukan lisensi yang kamu inginkan (mis. MIT).
-© 2025 cancan-lab & kontributor.
+© 2025 asgradian tim.
