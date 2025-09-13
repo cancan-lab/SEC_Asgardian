@@ -18,6 +18,8 @@ Aplikasi memungkinkan pengguna mengunggah audio lalu mendapatkan prediksi apakah
 
 ## 📂 Struktur Proyek
 
+
+
 ```
 
 .
@@ -35,6 +37,8 @@ Aplikasi memungkinkan pengguna mengunggah audio lalu mendapatkan prediksi apakah
 └─ .gitignore
 
 ```
+
+
 
 ---
 
