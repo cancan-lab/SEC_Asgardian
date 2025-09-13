@@ -16,30 +16,6 @@ Aplikasi memungkinkan pengguna mengunggah audio lalu mendapatkan prediksi apakah
 
 ---
 
-## 📂 Struktur Proyek
-
-
-
-```
-
-.
-├─ frontend/                  # React + Vite + TS (UI)
-│  ├─ src/
-│  ├─ index.html
-│  ├─ package.json
-│  └─ vite.config.ts
-├─ backend/                   # FastAPI (bisa masih bernama: server/)
-│  ├─ app.py
-│  └─ requirements.txt
-├─ model/                     # Skrip/model ML
-│  └─ check\_model.py
-├─ README.md
-└─ .gitignore
-
-```
-
-
-
 ---
 
 ## ✅ Prasyarat
@@ -200,23 +176,6 @@ backend/.env*
 2. Jalankan **frontend** → `npm run dev`
 3. Pastikan `VITE_API_BASE_URL` mengarah ke alamat backend
 4. Unggah audio dari UI dan amati respons prediksi
-
----
-
-## 🧯 Troubleshooting
-
-* **CORS error**: Tambahkan origin frontend (mis. `http://localhost:5173`) pada konfigurasi CORS di backend.
-* **Port sudah dipakai**: Ganti port `uvicorn` → `uvicorn app:app --reload --port 8001` dan sesuaikan `VITE_API_BASE_URL`.
-* **413 Payload Too Large**: Atur limit ukuran file di server/reverse proxy (mis. Nginx) atau validasi di frontend.
-* **Git push ditolak (non-fast-forward)**:
-
-  ```
-  git pull --rebase origin main
-  # selesaikan konflik (jika ada)
-  git push origin main
-  ```
-
-  (Atau pakai `git push --force-with-lease` jika memang ingin menimpa remote.)
 
 ---
 
